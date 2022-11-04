@@ -15,4 +15,4 @@ totaal_prijs_kortingbon = aantal_kortingbon * kortingsbon
 totaal_van_alles = totaal_prijs_croissant  + totaal_prijs_stokbrood - totaal_prijs_kortingbon
 
 
-print(totaal_van_alles)
+print(f'De feestlunch kost je bij de bakker {totaal_van_alles}voor de {aantal_croissantjes} croissantjes en de {aantal_stokbrood} stokbroden als de {aantal_kortingbon} kortingsbonnen nog geldig zijn!')
