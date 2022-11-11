@@ -1,13 +1,13 @@
 naam = input('wat is je naam?')
-Adres = input('wat is je adres?')
-Postcode = input('wat is je postcode?')
-Woonplaats = input('wat is je woonplaats?')
+adres = input('wat is je adres?')
+postcode = input('wat is je postcode?')
+woonplaats = input('wat is je woonplaats?')
 
 
 
 print("--------------------------------------------------------")
 print(f' naam : {naam}')
-print(f' adres : {Adres}')
-print(f' postcode : {Postcode}')
-print(f' woonplaats : {Woonplaats}')
+print(f' adres : {adres}')
+print(f' postcode : {postcode}')
+print(f' woonplaats : {woonplaats}')
 print("--------------------------------------------------------")
