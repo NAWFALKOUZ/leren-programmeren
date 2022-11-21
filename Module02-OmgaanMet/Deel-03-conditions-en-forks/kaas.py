@@ -16,14 +16,14 @@ if kleur_vraag == "nee":
 elif kleur_vraag == 'ja':
     vraag_gaten = input('Zitten er gaten in?')
     if vraag_gaten == 'nee':
-        vraag_hard = input('is de kaas  hard als steen?')
+        vraag_hard = input('is de kaas hard als steen?')
         if vraag_hard == 'nee':
             print('Jouw kaas is de Goudse Kaas')
-        elif vraag_gaten == 'ja':
+        elif vraag_hard == 'ja':
             print('Jouw kaas is de Parmigiano Reggiano')
     elif vraag_gaten == 'ja':
         vraag_duur = input('is de kaas belagelijk duur?')
         if vraag_duur == 'nee':
-            print('Leerdammer')
+            print('Jouw Kaas is de Leerdammer')
         elif vraag_duur == 'ja':
-            print('Emmenthaler')
+            print('Jouw kaas is de Emmenthaler')
