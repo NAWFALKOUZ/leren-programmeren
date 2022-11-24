@@ -35,7 +35,7 @@ totaal_prijs = prijs_small_pizza + prijs_medium_pizza + prijs_large_pizza
 
 print("--------------------------------------------------")
 print(f' {antwoord_pizzas_small} small pizza: {prijs_small_pizza} euro')
-print(f' {hoeveel_pizza_medium} medium pizza: {prijs_medium_pizza} euro')
-print(f' {hoeveel_pizza_large} large pizza: {prijs_large_pizza} euro')
+print(f' {antwoord_pizzas_medium} medium pizza: {prijs_medium_pizza} euro')
+print(f' {antwoord_pizzas_large} large pizza: {prijs_large_pizza} euro')
 print(f'{ totaal_prijs } euro, dit is je totale prijs ' ) 
 print("--------------------------------------------------")
