@@ -5,10 +5,13 @@ if kleur_vraag == "nee":
         korst_vraag = input('Heeft de kaas een korst?')
         if korst_vraag == "nee":
             print('Jouw kaas is de Mozzarella')
+        vraag_stinkt = input('stinkt de kaas?')
+        if vraag_stinkt == 'ja':
+                print('Jouw kaas is de brie')
         elif korst_vraag == "ja":
             print("Jouw kaas is de Camembert")
     elif vraag_schimmel == 'ja':
-        vraag_korst_kaas = input('Heeft de kaaseen korst?')
+        vraag_korst_kaas = input('Heeft de kaas een korst?')
         if vraag_korst_kaas == 'nee':
             print('Jouw kaas is de Foume d Amber')
         elif vraag_korst_kaas == 'ja':
