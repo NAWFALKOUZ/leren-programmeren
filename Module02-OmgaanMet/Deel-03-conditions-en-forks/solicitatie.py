@@ -10,7 +10,7 @@ else:
         
 opleiding = input('heeft u een Diploma MBO-4 ondernemen?')
 if opleiding == "nee":
-    raise NameError('koop een online het is goedkoper dan als je school doet')
+    raise NameError('koop een online het is goedkoper dan als je school doet!')
 rijbewijs_vrachtwagen = input('heeft u een vrachtwagen rijbwijs?')
 if rijbewijs_vrachtwagen == "nee":
     raise NameError('steel er een van je buurman!')
@@ -18,7 +18,7 @@ hoge_hoed = input('heeft u een hoge hoed?')
 gewicht = int(input('Hoeveel kilo weegt u?'))
 lengte = int(input('Hoelang bent u (in cm)?'))
 if lengte < 150:
-    raise NameError('ga is groeien dwerg')
+    raise NameError('ga is groeien dwerg!')
 certificaat = input('Heeft u een Certificaat "Overleven met gevaarlijk personeel"?')
 dieren_dressuur = int(input('Hoeveel jaar heeft u praktijkervaring met dieren-dressuur?'))
 jongleren = int(input('Hoeveel jaar heeft u praktijkervaring met jongleren?'))
