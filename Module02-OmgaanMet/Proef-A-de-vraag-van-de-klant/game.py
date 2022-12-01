@@ -9,11 +9,17 @@ if wel_of_niet == 'a' or wel_of_niet == 'A':
 elif wel_of_niet == 'b' or wel_of_niet == 'B':
     print('Je ging zonder wapen naar binnen. Je bent dood')
     quit()
-woonkamer = input('Je loopt naar de woonkamer. je ziet een van de gijzelaars en de gijzelaar. Hij schiet op jou, ga je A: Hem arresteren of B: schiet op hem ')
-if woonkamer == 'a' or woonkamer == 'A':
+
+Kelder_woonkamer = input('Je ziet een kelder of ga je naar de woonkamer?')
+if Kelder_woonkamer == 'kelder':
+    print('Je loopt naar beneden je raakt een draadje en blaast de hele huis op')
+    quit()
+elif Kelder_woonkamer == 'woonkamer':
+    input('loopt naar de woonwaker je ziet een van de gijzelaars en de gijzelaar. Hij schiet op jou, ga je A: Hem arresteren of B: schiet op hem ')
+if Kelder_woonkamer == 'a' or Kelder_woonkamer == 'A':
     print('Hij schiet nog een keer op je want schreeuwen helpt niet! (GAME OVER)')
     quit()
-elif woonkamer == 'b' or woonkamer == 'B':
+elif Kelder_woonkamer == 'b' or Kelder_woonkamer == 'B':
     print('Je raakt hem in zijn schouder hij ligt op de grond en je red de gijzelaar. Je loopt naar boven en gaat 1 kamer steeds doorzoeken')
 sniper = input('Je ziet wat glinsteren in de kast je loopt er naar toe, het is een sniper. Pak je hem op JA of NEE')
 if sniper == 'JA' or sniper == 'ja':
