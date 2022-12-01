@@ -1,6 +1,6 @@
 print('Jij bent een DSI-agent. jouw missie is je gaat een huis binnen stormen en de twee vijanden verslaan en de gijzelaar te redden')
 
-point_if_entry = input('Ga jij de voor of achter deur doorbreken? de achterdeur lijkt niemand te zijn, optie 1 = voordeur, optie 2 = achterdeur').lower()
+point_if_entry = input('Ga jij de voor of achter deur doorbreken? De achterdeur lijkt niemand te zijn, optie 1 = voordeur, optie 2 = achterdeur').lower()
 if point_if_entry == 'achterdeur' or point_if_entry == 'voordeur':
     print('Je breekt de deur open en door expolsie verlies je je wapen.')
 wel_of_niet = input('A: Pak je wapen op of B: Pak je hem niet op.').lower()
