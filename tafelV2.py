@@ -1,7 +1,5 @@
 import random 
 
-
-
 naam = input("wat is jouw naam?")
 def main():    
     
@@ -11,7 +9,6 @@ def main():
             break
         except ValueError: 
             print("Het moet een cijfer zijn.")
-
 
 
     for x in range(1, 11):
