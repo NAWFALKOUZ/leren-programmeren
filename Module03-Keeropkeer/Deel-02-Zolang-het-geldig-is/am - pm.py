@@ -1,10 +1,7 @@
 x = 0
-i = 0
-
-while x < 12:
+while x < 24:
     x += 1
-    print(x,'AM')
-    
-while i < 12:
-    i += 1
-    print(i,'PM')
+    if x < 13:
+        print(f'{x} AM')
+    else:
+        print(f'{x-12} PM')
