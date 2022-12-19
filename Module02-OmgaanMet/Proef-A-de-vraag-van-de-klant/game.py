@@ -22,8 +22,8 @@ if Kelder_woonkamer == 'a' or Kelder_woonkamer == 'A':
 elif Kelder_woonkamer == 'b' or Kelder_woonkamer == 'B':
     print('Je raakt hem in zijn schouder hij ligt op de grond en je red de gijzelaar. Je loopt naar boven en gaat 1 kamer steeds doorzoeken')
 
-slot = input('Je komt bij een deur met een code slot er op. Er staat en hint, wat is de gemiddelde lengte van een man in nederland ')
-if slot >= '170':
+slot = int(input('Je komt bij een deur met een code slot er op. Er staat en hint, wat is de gemiddelde lengte van een man in nederland '))
+if slot >= 170:
     print('De deur gaat open en loopt naar binnen')
 else:
     print('Je hebt de code verkeerd. je hebt 3 seconden om weg te komen. 3,2,1 BOOOOM. (je was te langzaam je bent dood)')
