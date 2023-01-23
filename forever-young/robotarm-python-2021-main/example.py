@@ -1,10 +1,10 @@
 from RobotArm import RobotArm
 
-robotArm = RobotArm('exercise 9')
+robotArm = RobotArm('exercise 11')
 
 # Jouw python instructies zet je vanaf hier:
+robotArm.speed = 3
 
-robotArm.speed = 2
 
 
 
