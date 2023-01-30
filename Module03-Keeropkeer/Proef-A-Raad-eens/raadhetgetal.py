@@ -3,6 +3,7 @@ import random
 rondes = 0
 score = 0
 
+
 while rondes < 20:
     te_raden_getal = random.randint(1,1000)
 
