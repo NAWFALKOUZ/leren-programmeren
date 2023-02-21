@@ -21,16 +21,16 @@ while rondes < 20:
             break
 
         verschil = abs(geraden_getal - te_raden_getal)
-
-        if te_raden_getal >= geraden_getal:
+        print(verschil)
+        if te_raden_getal > geraden_getal:
             print('hoger')
-        elif te_raden_getal <= geraden_getal:
+        elif te_raden_getal < geraden_getal:
             print('lager')
-        if verschil >= 20: 
+        if verschil <= 20: 
             print('je bent warm')
-        elif verschil <=50:    
+        elif verschil <= 50:    
             print('je bent heel warm')
-        teller += 1 
+        teller += 1
 
     if rondes < 20:
         verder = input('wil nog een getal raden? (ja/nee)').lower()
