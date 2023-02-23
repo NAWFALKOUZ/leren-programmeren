@@ -2,7 +2,7 @@ boodschappenlist = {}
 
 
 while True:
-    item_vraag = input("Voeg een item toe: ")
+    item_vraag = input("Voeg een item toe: ").lower()
     aantal = int(input("hoveel wil je ?: "))
     if item_vraag in boodschappenlist:
         boodschappenlist[item_vraag] += aantal
