@@ -15,7 +15,6 @@ for x in kleuren:
 
     for z in range(2,11):
         lijst.append(f"{x} {z}")
-
 for a in jokers:
     lijst.append(a)
 
