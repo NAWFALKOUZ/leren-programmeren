@@ -1,8 +1,12 @@
 boodschappenlist = {}
 
 while True:
-    item_vraag = input("Voeg een item toe: ").lower()
-    aantal = int(input("Hoeveel wil je van dit item? "))
+    try:
+        item_vraag = input("Voeg een item toe: ").capitalize()
+        aantal = int(input("Hoeveel wil je van dit item? "))
+    except ValueError:
+        print("Dat is geen geldig nummer, probeer het opnieuw")
+        continue
     
     if item_vraag in boodschappenlist:
         boodschappenlist[item_vraag] += aantal
