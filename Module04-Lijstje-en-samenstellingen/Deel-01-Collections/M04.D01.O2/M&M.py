@@ -1,5 +1,5 @@
 import random
-kleuren = ["oranje","blauw","groen","bruin"]
+kleuren = ("oranje","blauw","groen","bruin")
 
 zakje = [] 
 
