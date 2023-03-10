@@ -3,7 +3,6 @@ Dagen = ("Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","Zaterdag","Zondag
 print(f"Alle dagen van de week zijn {Dagen}")
 
 for y in range(5, 7): #range(start, stop, step) 
-    print(y)
     print(f'de weekenddagen zijn: {Dagen[y]}')
 
 for z in range(6, -1, -1):
