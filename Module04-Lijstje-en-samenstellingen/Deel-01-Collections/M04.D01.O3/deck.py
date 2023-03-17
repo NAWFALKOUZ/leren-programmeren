@@ -21,10 +21,10 @@ for a in jokers:
 random.shuffle(lijst)
 print(lijst)
 
-for b in range(1,8):
+for b in range(0,7):
     kaart = lijst[b]
     print(f"kaart {b}: {kaart}")
-    lijst.remove(kaart)
+for l in range(0,7):
+    lijst.pop(0)
 
-
-# print(f'de rest van de kaarten is {len(lijst)}:{lijst}')
+print(f'de rest van de kaarten is {len(lijst)}:{lijst}')
