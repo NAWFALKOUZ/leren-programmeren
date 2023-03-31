@@ -27,3 +27,10 @@ cjv 13 python, javascripten horeca app en inlog pagina afmaken en html bootstrap
 vandaag is het 17-3-2023
 ik vandaag aan python fruitmand 1 tot 9 en html de meesterproef maken en als ik thuis ben en in de weekend ga ik ook aan html meesterproef afmaken. 
 Als ik daar klaar mee ben ga ik veder aan python en javascript
+
+
+
+31-03-2023
+
+Cjv javascript open zetten om verder te werken met deel 2 dan de Pseudocode na de Pseudocode cjv en dan pas met python programma werken
+html ben nog bezig met meesterproef eigen portofoilio maken verder met mijn cv en een contact pagina.
