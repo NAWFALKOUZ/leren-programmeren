@@ -34,3 +34,8 @@ Als ik daar klaar mee ben ga ik veder aan python en javascript
 
 Cjv javascript open zetten om verder te werken met deel 2 dan de Pseudocode na de Pseudocode cjv en dan pas met python programma werken
 html ben nog bezig met meesterproef eigen portofoilio maken verder met mijn cv en een contact pagina.
+
+
+
+13-04-23
+javascript Buttons 1.0 maken Pseudocode cjv inleveren en dan de meester proef html css bijna af moet alleen mijn cv of resume maken dan ben ik klaar
