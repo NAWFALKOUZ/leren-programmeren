@@ -1,8 +1,10 @@
 # Vraagt namen aan deelnemers
 # Zorg dat alle namen uniek zijn en minimaal 3 namen zijn opgegeven
-# Als er minder dan 5 zijn vraagt hij het opnieuw en als er 3 namen zijn vraagt hij steeds of je nog meer namen wilt invullen 
+#  als er 3 namen zijn vraagt hij steeds of je nog meer namen wilt invullen 
 # trek random lootjes zonder dat iemand zichzelf heeft
-# Print de lijst van namen en bijbehorende lootjes
+# Print de lijst van namen en bijbehorende lootjes van de andere persoon
+
+#je kan ook checken of de naam die het zelfde is. 
 
 import random
 
