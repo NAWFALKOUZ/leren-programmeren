@@ -1,59 +1,61 @@
-def addition (number1, number2):
+def addition(number1, number2):
     return number1 + number2
-def subtraction (number1, number2):
+
+def subtraction(number1, number2):
     return number1 - number2
-def multiplication (number1, number2):
+
+def multiplication(number1, number2):
     return number1 * number2
-def division (number1, number2):
+
+def division(number1, number2):
     return number1 / number2
 
-keuze = " "
-while not keuze in ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'):
-    keuze = input("Wat wilt u doen? A = getallen optellen, B = getallen aftrekken, C = getallen vermenigvuldigen, D = getallen delen, E = getal ophogen, F = getal verlagen, G = getal verdubbelen of H = getal halveren?, type 'niks' als je niks wilt doen: ").lower()
-    if keuze == "niks":
+choice = " "
+while not choice in ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'):
+    choice = input('Wat wilt u doen?\nA) Getallen optellen\nB) Getallen aftrekken\nC) Getallen vermenigvuldigen\nD) Getallen delen\nE) Getal ophogen\nF) Getal verlagen\nG) Getal verdubbelen\nH) Getal halveren\nKies: ').upper()
+    if choice == "NIKS":
         exit()
 
 aantal = -1
 while True:
-    if aantal > -1 and keuze != 'i' and keuze in ('a', 'b', 'c', 'd'):
+    if aantal > -1 and choice in ('A', 'B', 'C', 'D'):
         number1 = aantal
-        number2 = int(input("Geef de 2e getal op: "))
+        number2 = float(input("Geef het tweede getal op: "))
 
-    elif aantal > -1 and keuze != 'i' and keuze in ('e', 'f', 'g', 'h'):
+    elif aantal > -1 and choice in ('E', 'F', 'G', 'H'):
         number1 = aantal
 
-        
-    elif keuze in ('a', 'b', 'c', 'd'):
-        number1 = int(input("Geef een getal op: "))
-        number2 = int(input("Geef nog een getal op: "))
+    elif choice in ('A', 'B', 'C', 'D'):
+        number1 = float(input("Geef een getal op: "))
+        number2 = float(input("Geef nog een getal op: "))
 
-    elif keuze in ('e', 'f', 'g', 'h'):
-        number1 = int(input("Geef een getal op: "))
+    elif choice in ('E', 'F', 'G', 'H'):
+        number1 = float(input("Geef een getal op: "))
 
     else:
         exit()
 
-    if keuze == "a":
+    if choice == "A":
         aantal = addition(number1, number2)
         print(aantal)
-    elif keuze == "b":
+    elif choice == "B":
         aantal = subtraction(number1, number2)
         print(aantal)
-    elif keuze == "c":
+    elif choice == "C":
         aantal = multiplication(number1, number2)
         print(aantal)
-    elif keuze == "d":
+    elif choice == "D":
         aantal = division(number1, number2)
         print(aantal)
-    elif keuze == "e":
+    elif choice == "E":
         number2 = 1
         aantal = addition(number1, number2)
         print(aantal)
-    elif keuze == "f":
+    elif choice == "F":
         number2 = 1
         aantal = subtraction(number1, number2)
         print(aantal)
-    elif keuze == "g":
+    elif choice == "G":
         number2 = 2
         aantal = multiplication(number1, number2)
         print(aantal)
@@ -62,4 +64,4 @@ while True:
         aantal = division(number1, number2)
         print(aantal)
 
-    keuze = input(f"Wil je wat met het antwoord ({aantal}) doen? A = getallen optellen, B = getallen aftrekken, C = getallen vermenigvuldigen, D = getallen delen, E = getal ophogen, F = getal verlagen, G = getal verdubbelen of H = getal halveren of I = Nee?")
+    choice = input(f'Wil je iets met het uitkomst ({aantal})?\nA) Getallen optellen\nB) Getallen aftrekken\nC) Getallen vermenigvuldigen\nD) Getallen delen\nE) Getal ophogen\nF) Getal verlagen\nG) Getal verdubbelen\nH) Getal halveren\nKies: ').upper()
