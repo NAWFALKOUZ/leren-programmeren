@@ -4,4 +4,4 @@ def fibonacci(aantal: int) -> list:
         getallenreeks.append(getallenreeks[x] + getallenreeks[x + 1])
     snede = getallenreeks[-1] / getallenreeks[-2]
     return getallenreeks, snede
-print(fibonacci(10))
+print(fibonacci(8))
